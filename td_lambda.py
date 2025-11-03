@@ -44,8 +44,7 @@ class TDLambdaCausal():
         i2_raw = ( v[2] + self.vel_limit ) / (2*self.vel_limit) * (self.dim[2] - 1)
         i3_raw = ( v[3] + self.ang_vel_limit ) / (2*self.ang_vel_limit) * (self.dim[3] - 1)
 
-        # Garante que os índices fiquem dentro dos limites da matriz [0, dim-1]
-        # np.clip(valor, min, max) é perfeito para isso.
+
         i0 = int(np.clip(i0_raw, 0, self.dim[0] - 1))
         i1 = int(np.clip(i1_raw, 0, self.dim[1] - 1))
         i2 = int(np.clip(i2_raw, 0, self.dim[2] - 1))
