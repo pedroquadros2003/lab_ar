@@ -1,8 +1,8 @@
 Grupo:
-
-- Pedro Ulisses
-- Iago Jacob
-
+- Pedro Ulisses de Lima Quadros
+- Iago Jacob de Souza Ramos
+- Leonardo Fernandes Trevilato
+- Rhuan dos Santos Vicente
 
 O pêndulo invertido é um exercício famoso para o estudo de aprendizado por reforço. O jogo consiste em tentar equilibrar um pêndulo invertido em cima de um carrinho apenas exercendo duas forças horizontais, por meio dos botões 'z' e 'x'. Para jogar, apenas execute "$python3 main.py" em seu terminal. Utilizamos o algoritmo TD-Lambda causal para estimar os valores esperados da função valor em cada estado para a política nmanual (i.e. a estratégia utilizada pelo jogador).
 
