@@ -27,10 +27,10 @@ LAMBDA = 0.9 # Fator de decaimento para os rastros de elegibilidade
 
 # --- Parâmetros da Discretização do Espaço de Estados ---
 # Define em quantas "caixas" cada variável contínua será dividida.
-N_POSITION = 20
-N_ANGLE = 20
-N_VELOCITY = 20
-N_ANGULAR_VELOCITY = 20
+N_POSITION = 10
+N_ANGLE = 6
+N_VELOCITY = 10
+N_ANGULAR_VELOCITY = 6
 STATE_DIMS = (N_POSITION, N_ANGLE, N_VELOCITY, N_ANGULAR_VELOCITY)
 
 # --- Parâmetros de Saída ---
